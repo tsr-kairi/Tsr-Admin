@@ -1,0 +1,50 @@
+.newProduct {
+  flex: 4;
+  margin-top: 10px;
+}
+
+.addProductForm {
+  margin-top: 10px;
+}
+
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  outline: none;
+  padding: 10px;
+}
+
+.addProductItem > select {
+  outline: none;
+  padding: 10px;
+}
+
+.addProductButton {
+  margin-top: 20px;
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.addProductButton:hover {
+  background-color: rgb(19, 223, 223);
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
